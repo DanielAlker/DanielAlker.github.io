@@ -26,24 +26,44 @@
     <div class="pozadi"></div>
 </header>
 <section id="contact-form" class="py-3">
-<div class="container">
-    <h1 class="1-heading"><span class="text-primary"></span>Contact Us</h1>
-    <form action="nose">
-        <div class="form-group">
-            <label for="name"></label>
-            <input type="text" placeholder="Jméno" name="name" id="name">
+    <div class="container">
+        <h1 class="1-heading"><span class="text-primary"></span>Contact Us</h1>
+        <form action="nose">
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" placeholder="Jméno" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" placeholder="Zadejte váš email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Zadej text" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn">Odeslat</button><br>
+        </form>
+    </div>
+</section>
+
+<section id="contact-info" class="bg-dark">
+    <div class="container">
+        <div class="box bg-dark">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Adresa</h3>
+            <p>Partyzánská 1/7, Holešovice (Praha 7), 170 00 Praha</p>
         </div>
-        <div class="form-group">
-            <label for="email"></label>
-            <input type="email" placeholder="Zadejte váš email" name="email" id="email">
+        <div class="box bg-dark">
+            <i class="fas fa-mobile-phone fa-3x"></i>
+            <h3>Telefonní Číslo</h3>
+            <p>+420 731 320 002</p>
         </div>
-        <div class="form-group">
-            <label for="message"></label>
-            <textarea name="message" placeholder="Zadej text" id="message"></textarea>
+        <div class="box bg-dark">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Emailová adresa</h3>
+            <p>eterprise.seznam.cz</p>
         </div>
-        <button type="submit" class="btn">Odeslat</button><br>
-    </form>
-</div>
+    </div>
 </section>
 
 <footer class="footer">
