@@ -1,0 +1,44 @@
+.box {
+    float: none;
+    width: 100%;
+}
+#contact-info .box {
+    border-bottom: #dddddd dotted 1px;
+}
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+    float: none;
+}
+
+/* About */
+#contact-info {
+    margin-top: 30px;
+    float: none;
+    width: 100%;
+}
+
+#main .showcase-content .showcase-content p .showcase-content h1 .container{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#main .image-top .image {
+    margin-left: 10px;
+}
+
+#showcase .showcase-content p {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+#contact-info .box {
+    border-bottom: white dotted 3px;
+    text-align: center;
+    padding: 2px;
+}
