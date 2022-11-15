@@ -6,7 +6,26 @@
 
 body {
     background: #E7DFDD;
+}
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333333;
+}
+
+.bg-dark {
+    background: #333333;
+    color: #fff;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem;
+    border-bottom: #444444 dotted;
 }
 
 #logo {
@@ -72,6 +91,30 @@ body {
     padding: 3rem 0;
 }
 
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2.5rem;
+}
+
+.p-3 {
+    padding: 3.5rem;
+}
+
+.m-1 {
+    margin: 1.5rem;
+}
+
+.m-2 {
+    margin: 2.5rem;
+}
+
+.m-3 {
+    margin: 3.5rem;
+}
+
 p {
     margin: 0.75rem 0;
 }
@@ -92,6 +135,7 @@ a {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index: 2;
 }
 
 #navbar ul {
@@ -142,6 +186,7 @@ a {
     width: 50%;
     text-align: center;
     padding: 1rem;
+    flex: 1;
 }
 
 #about .items .item i {
@@ -149,4 +194,16 @@ a {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 50%;
+}
+
+#project {
+    display: flex;
+}
+
+#project div {
+    flex: 1;
+}
+
+#project .project-img {
+    background: url("https://source.unsplash.com/random/?team")no-repeat center;
 }
