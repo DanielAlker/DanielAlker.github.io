@@ -164,8 +164,7 @@ a{
     justify-content: space-between;
     flex: 1;
 }
-#about .item{
-    width: 50%;
+#about .item {
     text-align: center;
     padding: 1rem;
 }
@@ -223,4 +222,9 @@ a{
 }
 .margin{
     margin-right: 1rem;
+}
+
+#main-footer {
+    display: flex;
+    height: 400px;
 }
