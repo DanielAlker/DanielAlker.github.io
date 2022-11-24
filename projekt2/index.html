@@ -18,6 +18,7 @@
             href="index.html">
         Kup
         <span class="text-primary">Telefon</span></a></div>
+    <a href="#" id="hambac"><i class="fa fa-bars fa-2x"></i></a>
     <ul>
         <li><a href="#home">Úvod</a></li>
         <li><a href="#about">Telefony a Příslušenství</a></li>
@@ -146,6 +147,15 @@
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>    // Smooth scrolling
+$('#navbar #hambac').click(function () {
+    $('#navbar ul').slideToggle("slow")
+
+});
+
+$('#navbar ul').click(function () {
+    $('#navbar ul').hide();
+});
+
 $('#navbar a, .btn').on('click', function (event) {
     if (this.hash !== '') {
         event.preventDefault();
@@ -163,7 +173,7 @@ var nav_sections = $('section');
 var main_nav = $('#navbar li, .mobile-nav');
 $(window).on('scroll', function () {
 
-    var cur_pos = $(this).scrollTop() + 200;
+    var cur_pos = $(this).scrollTop() + 260;
     // Navigation active state on scroll
     nav_sections.each(function () {
         var top = $(this).offset().top,
