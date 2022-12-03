@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 body {
@@ -78,6 +79,10 @@ main .showcase-content form .btn input {
     border-radius: 25px;
     border: 1px solid;
     outline: none;
+}
+
+main .showcase-content form .btn input:hover {
+    background-color: gray;
 }
 
 main .showcase-content form .search button {
