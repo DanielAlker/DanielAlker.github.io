@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    color: white;
 }
 
 body {
-    background-color: #444444;
+    background-color: #bfb8b9;
 }
 
 #navbar {
