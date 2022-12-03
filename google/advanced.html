@@ -5,47 +5,44 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="./css/style.css">
-    <title>Google Search | Advanced</title>
+    <title>Google Search Advanced</title>
 </head>
 <body>
 <nav id="navbar">
     <ul>
         <li><a href="index.html">Vyhledávání</a></li>
         <li><a href="images.html">Vyhledávání obrázků</a></li>
-        <li><a href="#" class="active">Rozšířené vyhledávání</a></li>
+        <li><a href="advanced.html" class="active">Rozšířené vyhledávání</a></li>
     </ul>
 </nav>
 <main>
     <div class="showcase-content">
         <div class="title">
-            <h1>Google</h1>
-            <p>Rozšířené vyhledávání</p>
-        </div>
-        <div class="subtitle">
-            <p>Najit stránky s...</p>
+            <img alt="Google"
+                 src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <form action="https://www.google.com/search" name="f">
-            <div class="search-box text">
+            <div class="search text">
                 <p>všechna tato slova:</p>
                 <input type="text" name="as_q" autocomplete="off" autocorrect="off" autocapitalize="off"
                        spellcheck="false">
             </div>
-            <div class="search-box text">
+            <div class="search text">
                 <p>přesně toto slovo nebo sousloví:</p>
                 <input type="text" name="as_epq" autocomplete="off" autocorrect="off" autocapitalize="off"
                        spellcheck="false">
             </div>
-            <div class="search-box text">
+            <div class="search text">
                 <p>kterékoliv z těchto slov:</p>
                 <input type="text" name="as_oq" autocomplete="off" autocorrect="off" autocapitalize="off"
                        spellcheck="false">
             </div>
-            <div class="search-box text">
+            <div class="search text">
                 <p>žádné z těchto slov:</p>
                 <input type="text" name="as_eq" autocomplete="off" autocorrect="off" autocapitalize="off"
                        spellcheck="false">
             </div>
-            <div class="buttons">
+            <div class="btn">
                 <input type="submit" value="Rozšířené vyhledávání" name="btnK">
             </div>
         </form>
